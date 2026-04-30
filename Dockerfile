@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel9/python-312@sha256:25d91bc7f8bd90dc1d17553c30e2c48ab8f57c25940b8f68b4654b32eaf4b99e
+FROM registry.redhat.io/rhel9/python-312
 USER 0
 RUN mkdir -p /opt/bastion
 COPY requirements.txt /opt/bastion
