@@ -17,7 +17,7 @@ podman exec -it bastion /bin/bash
 
 The dockerfile file uses UBI(Universal Base Image) 9 as base image with python-3.14
 
-> registry.access.redhat.com/ubi9/python-314:9.8-1787749109
+> registry.access.redhat.com/ubi9/python-314:latest
 
 **Python Requirements**
 
